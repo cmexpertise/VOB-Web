@@ -1,0 +1,134 @@
+/* ========= about-ori ========== */
+.about-ori{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.about-ori .about-img{
+    position: relative;
+    max-width: 1096px;
+    margin: 0 auto;
+}
+
+.about-ori .about-img:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border: 2px solid;
+    border-image-slice: 1;
+    background: transparent;
+    background-clip: padding-box;
+    /* border-image: linear-gradient(to top, rgba(85,113,255,0), rgba(85,113,255), rgba(85,113,255,0)); */
+    border-image-source: linear-gradient(to top, var(--primary-color) , transparent);
+    width: 433px;
+    height: 300px;
+    z-index: -1;
+}
+
+/*.about-ori .about-img img{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}*/
+
+.about-ori .about-content{
+    max-width: 1096px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.about-ori .about-content h3
+{
+    font-size: 30px !important;
+}
+
+.about-ori .our-mission{
+    max-width: 1096px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    padding: 75px 100px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.about-ori .our-mission h3{
+    font-size: 30px !important;
+    margin-bottom: 30px;
+}
+
+
+/* ============ responsive =========== */
+@media only screen and (max-width:1500px){
+    .about-ori{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .about-ori .our-mission{
+        padding: 50px 100px;
+    }
+
+    .about-ori .about-content h3,
+    .about-ori .our-mission h3
+    {
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .about-ori{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .about-ori{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about-ori .about-content{
+        margin-top: 50px;
+    }
+
+    .about-ori .about-content h3,
+    .about-ori .our-mission h3
+    {
+        font-size: 22px !important;
+    }
+
+    .about-ori .our-mission{
+        margin-top: 50px;
+    }
+
+    .about-ori .our-mission {
+        padding: 50px 50px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .about-ori .about-img:after{
+        display: none;
+    }
+
+    .about-ori .about-content {
+        margin-top: 30px;
+    }
+
+    .about-ori .about-img img{
+        padding: 0;
+    }
+
+    .about-ori .our-mission {
+        padding: 30px 30px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .about-ori .about-content h3,
+    .about-ori .our-mission h3
+    {
+        font-size: 20px !important;
+    }
+}

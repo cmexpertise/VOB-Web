@@ -1,0 +1,39 @@
+.privacy-policy{
+    padding-top: 250px;
+    padding-bottom: 120px;
+}
+
+.privacy-policy .privacy-content p{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+/* =========== responsive ========= */
+@media only screen and (max-width:1500px) {
+    .privacy-policy{
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .privacy-policy{
+        padding-top: 180px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .privacy-policy{
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    .privacy-policy .privacy-content p{
+        margin-bottom: 15px;
+    }
+}

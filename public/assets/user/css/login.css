@@ -1,0 +1,204 @@
+/* ============= sign-in =========== */
+.login-wrapper{
+   padding-top: 100px;
+   padding-bottom: 176px;
+   position: relative;
+   height: 100vh;
+}
+
+.login-wrapper .login-bg{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   z-index: -1;
+}
+
+.login-wrapper .login-form{
+    max-width: 539px;
+    margin: 0 auto;
+}
+
+.login-wrapper .login-form h2{
+    font-size: 40px !important;
+    font-weight: var(--Inter-ExtraBold);
+}
+
+.login-wrapper .login-form p{
+    max-width: 355px;
+    margin: 0 auto;
+    color: var(--secondry-light);
+}
+
+.login-wrapper .login-form form .email-wrp,
+.login-wrapper .login-form form .password-wrp,
+.login-wrapper .login-form form .text-wrp
+{
+    margin-top: 40px;
+}
+
+.login-wrapper .login-form form .password-wrp{
+    position: relative;
+}
+
+.login-wrapper .login-form form .password-wrp span{
+    color: var(--White);
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+}
+
+.login-wrapper .login-form form .password-wrp{
+    position: relative;
+}
+
+.login-wrapper .login-form form .password-wrp i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--White);
+}
+
+.login-wrapper .login-form form .forgot-link{
+    display: flex;
+}
+
+.login-wrapper .login-form form .forgot-link a{
+    color: var(--primary-text) !important;
+}
+
+.login-wrapper .login-form form .forgot-link a,
+.login-wrapper .login-form form .forgot-link span
+{
+    color: var(--White);
+    font-size: 16px !important;
+    font-family: var(--Inter-Regular) !important;
+}
+
+.login-wrapper .login-form form .forgot-link.terms-link a{
+    color: var(--primary-color);
+    text-decoration: underline !important;
+}
+
+.login-wrapper .login-form form .cmn-btn{
+    max-width: 355px;
+    display: inline-block;
+    margin: 50px auto 0;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.login-wrapper .login-form form .guest-link{
+    margin: 40px 0;
+}
+
+.login-wrapper .login-form form .guest-link a{
+    color: var(--White);
+    text-decoration: underline !important;
+}
+
+.login-wrapper .login-form form .acount-link p{
+    max-width: 100% !important;
+    margin: 0;
+    color: var(--White);
+}
+
+.login-wrapper .login-form form .acount-link a{
+    color: var(--primary-color);
+    font-weight: var(--Inter-Bold);
+}
+
+.login-wrapper .login-form  .forgot-link input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 2px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+.login-wrapper .login-form  .forgot-link input:checked[type=checkbox] {
+    background-color: var(--primary-color) !important;
+}
+
+.login-wrapper .login-form  .forgot-link input[type=checkbox]:focus{
+    box-shadow: 0 0 0 .25rem rgba(227, 162, 36, .25) !important;
+}
+
+/* ============ forgot-pwd ============= */
+.forgot-pwd .login-form .acount-link{
+    margin-top: 30px;
+}
+
+/* ========= responsive ========== */
+@media only screen and (max-width:1500px){
+    .login-wrapper{
+        padding-top: 100px;
+    }
+
+    .login-wrapper .login-form h2{
+        font-size: 35px !important;
+    }
+
+    .login-wrapper .login-form form .email-wrp, .login-wrapper .login-form form .password-wrp, .login-wrapper .login-form form .text-wrp{
+        margin-top: 30px;
+    }
+
+    .login-wrapper .login-form form .cmn-btn{
+        margin: 30px auto 0;
+    }
+
+    .login-wrapper .login-form form .guest-link {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .login-wrapper .login-form h2{
+        font-size: 30px !important;
+    }
+
+    .login-wrapper{
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .login-wrapper{
+        padding-top: 50px;
+    }
+
+    .login-wrapper .login-form h2{
+        font-size: 25px !important;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .login-wrapper .login-form h2{
+        font-size: 22px !important;
+    }
+
+    .login-wrapper .login-form form .cmn-btn{
+        max-width: 250px;
+    }
+
+    .login-wrapper .login-form form .email-wrp, .login-wrapper .login-form form .password-wrp, .login-wrapper .login-form form .text-wrp{
+        margin-top: 20px;
+    }
+
+    .login-wrapper .login-form form .cmn-btn{
+        margin: 30px auto 0;
+    }
+
+    .login-wrapper .login-form form .guest-link {
+        margin: 20px 0;
+    }
+    
+    .login-wrapper .login-bg{
+        display: none;
+    }
+}

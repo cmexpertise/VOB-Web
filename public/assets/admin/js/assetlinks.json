@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.obs.oribible",
+      "sha256_cert_fingerprints": [
+        "E9:D1:4C:F9:A0:43:D6:C5:99:7B:23:A2:59:14:0B:C3:83:75:87:39:48:6D:93:1C:90:64:8A:D8:E8:A4:9C:1F",
+        "78:AB:E6:91:39:06:08:DD:D7:2A:F0:D6:A8:61:D4:88:63:80:EE:60:1E:68:5C:46:08:30:AF:C3:47:22:6B:5C"
+      ]
+    }
+  }
+]

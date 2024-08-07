@@ -1,0 +1,131 @@
+/* =========== daily-quote-wrapper ============= */
+.daily-quote{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.daily-quote .title p{
+    max-width: 913px;
+}
+
+.daily-quote .book-img{
+    max-width: 306px;
+    height: 500px;
+}
+
+.daily-quote .book-img{
+    border-radius: 20px;
+}
+
+.daily-quote .cmn-btn{
+    margin-top: 65px;
+}
+
+/* =========== category-slider ============ */
+.daily-quote .category-slider span{
+    font-size: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: var(--Inter-Medium);
+    color: #fff;
+    padding: 10px 45px;
+    display: inline-block;
+}
+
+
+.daily-quote .category-slider .owl-item{
+    width: auto !important;
+}
+
+.daily-quote .category-slider{
+    padding-bottom: 70px;
+}
+
+.daily-quote .category-slider .owl-item:last-child{
+    margin-right: 0 !important;
+}
+
+.daily-quote .owl-stage{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.daily-quote .owl-nav{
+    padding-top: 35px;
+}
+
+.daily-quote .category-slider span.active{
+    background-color: var(--primary-color);
+}
+
+
+/* =============== responsive ================= */
+@media only screen and (max-width:1500px){
+    .daily-quote .cmn-btn{
+        margin-top: 50px;
+    }
+
+    .daily-quote{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .daily-quote .category-slider span{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:1400px){
+    .daily-quote .category-slider span{
+        padding: 10px 40px;
+    }
+
+    .daily-quote{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    
+
+    .daily-quote .book-img{
+        height: auto;
+    }
+
+    .daily-quote .category-slider span{
+        font-size: 15px;
+    }
+
+    .daily-quote .category-slider {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .daily-quote{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .daily-quote .cmn-btn{
+        margin-top: 30px;
+    }
+
+    .daily-quote .category-slider span {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .daily-quote .book-img{
+        margin: 0 auto;
+    }
+}

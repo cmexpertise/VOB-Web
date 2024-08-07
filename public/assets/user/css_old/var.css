@@ -1,0 +1,34 @@
+:root{
+
+    /* fonts */
+
+    /*====== Inter-font ========*/
+    --Inter-Black:'Inter-Black';
+    --Inter-Bold:'Inter-Bold';
+    --Inter-SemiBold:'Inter-SemiBold';
+    --Inter-ExtraBold:'Inter-ExtraBold';
+    --Inter-Regular:'Inter-Regular';
+    --Inter-Medium:'Inter-Medium';
+    --Inter-Light:'Inter-Light';
+
+    /* Jaldi-fonts */
+    --jaldi-regular:'Jaldi-regular';
+
+    /* colors */
+    --primary-color : #E3A224;
+    --primary-text: #E6C26C;
+    --secondry-color : #141618;
+    --bg-color: #131516;
+    --White : #ffffff;
+    --black : #000000;
+    --text-color: #949492;
+    --body-color: #08090A;
+    --card-bg-color:#1C1E1F;
+    --icon-hover: #08090A;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --subscribe-input-bg: #0F1112;
+    --subscribe-input-border: #3B3E41;
+    --dropdown-bg-color: #08090A;
+    --dark-text: #16130A;
+    --secondry-light: #FFE9BD;
+}
